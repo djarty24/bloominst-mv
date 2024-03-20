@@ -6,7 +6,21 @@ nav {
     border-bottom: 2px solid var(--light-gray);
     box-shadow: 0 1px 0px 0 rgba(0,0,0,.1);
     background-color: white;
-    position: sticky; /* Added */
+    position: relative;
+    padding: 20px 30px 20px 10px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: 640px) {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    
+    @media (min-width: 1024px) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }    
 }
 
 .overlay {
@@ -15,8 +29,8 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 10; /* Ensure the overlay covers the whole screen */
-    display: none; /* Hidden by default */
+    z-index: 10;
+    display: none;
 }
 
 nav ul {
@@ -26,12 +40,11 @@ nav ul {
     align-items: center;
     gap: 50px;
     margin-right: 80px;
-    position: relative; /* Added */
-    z-index: 20; /* Ensure the menu is above the overlay */
+    position: relative;
+    z-index: 20;
 }
 
 .right-links {
-    font-size: var(--paragraph-size);
     font-weight: 500;
     letter-spacing: 0.1rem;
     color: black;
@@ -43,11 +56,11 @@ nav ul {
     padding: 50px 0px 75px 0px;
     flex-direction: column;
     display: none;
-    position: absolute; /* Added */
-    top: 100%; /* Position below the navbar */
-    left: 0; /* Align to the left */
-    width: 100%; /* Take full width */
-    font-size: var(--paragraph-size);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
 }
 
 nav a {
@@ -56,7 +69,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--highlight-blue);
+    color: var(--highlight);
     transition: 0.25s;
 }
 
