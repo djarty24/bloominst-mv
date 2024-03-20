@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={menuOpen ? 'white-background' : ''}>
+        <nav className='mb-24'>
             <ul>
                 <li><Link to={"/"}><img src="/logo-small.png" alt="" /></Link></li>
             </ul>

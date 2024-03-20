@@ -6,15 +6,16 @@
 	--primary: #2684c6;
 	--highlight: #38ACEC;
 	--light-gray: #E6E6E6;
-	--dark-gray: #5A5A5A;
+	--accent: #EEF1FF;
 }
 
 * { font-family: 'General Sans', sans-serif; }
 
 h1 {
+    font-weight: 600;
     font-size: 1.5rem/* 24px */;
     line-height: 2rem/* 32px */;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     
     @media (min-width: 640px) {
         font-size: 1.875rem/* 30px */;
@@ -22,17 +23,13 @@ h1 {
     }
 
     @media (min-width: 1024px) {
-        font-size: 2rem/* 36px */;
+        font-size: 2.5rem/* 36px */;
         line-height: 2.5rem/* 40px */;
     }    
-
-    @media (min-width: 1560px) {
-        font-size: 3rem/* 36px */;
-        line-height: 2.5rem/* 40px */;
-    }
 }
 
 h2 {
+    font-weight: 600;
     font-size: 1.25rem/* 20px */;
     line-height: 1.75rem/* 28px */;
     margin-bottom: 1rem;
@@ -118,3 +115,17 @@ p {
 }
 
 .highlight{ color: var(--highlight); }
+
+.section {
+    margin: 3rem auto;
+    padding: 3rem 20px;
+    width: 100%;
+
+    @media (min-width: 800px) {
+        padding: 3rem 10%;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 3rem 25%;
+    }
+}
