@@ -1,4 +1,5 @@
 import React from 'react';
+import './Events.css';
 
 const Events = () => {
     return (
@@ -9,8 +10,9 @@ const Events = () => {
             </div>
             <div className='section bg-accent'>
                 <h2>Calendar</h2>
-                <h3>This feature is currently under development! Please check back in a little while.</h3>
-                <h3>Your patience is greatly appreciated.</h3>
+                {/* <iframe className='calendar w-full' src="https://calendar.google.com/calendar/embed?src=mountainview%40bloominst.org&ctz=America%2FLos_Angeles"></iframe> */}
+                <iframe style={{aspectRatio: "5 / 4"}} className='calendar w-full' src="https://embed.styledcalendar.com/#xPzT5eiLzun3xEJn3CPr" title="Styled Calendar" class="styled-calendar-container" data-cy="calendar-embed-iframe"></iframe>
+                <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
             </div>
             <div className='section'>
                 <h2>Past Events</h2>

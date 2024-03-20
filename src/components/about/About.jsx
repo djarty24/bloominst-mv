@@ -30,14 +30,14 @@ const About = () => {
 			<p>Welcome to the Mountain View region! We are so excited to host many fun events and get to meet everyone. Our wonderful team has been working diligently to plan our events. We hope to see everyone there!</p>
             <div className="container mx-auto py-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-4">
-                    <Member position="Chapter Director" name="Meredith Tan" photo="meredith.jpg" />
-                    <Member position="Treasurer" name="Miyu Nojiri" photo="miyu.jpg" />
-                    <Member position="Public Relations" name="Catherine Yang" photo="catherine.jpg" />
-                    <Member position="Public Relations" name="Keira Hsieh" photo="keira.jpg" />
-                    <Member position="Activities Director" name="Katie Wu" photo="katie.jpg" />
-                    <Member position="Activities Director" name="Jocelyn Wang" photo="jocelyn.jpg" />
-                    <Member position="Website Manager" name="Amy Jo" photo="amy.jpg" />
-                    <Member position="Website Manager" name="Revati Tambe" photo="revati.jpg" />
+                    <Member position="Chapter Director" name="Meredith Tan" photo="meredith.png" />
+                    <Member position="Treasurer" name="Miyu Nojiri" photo="miyu.png" />
+                    <Member position="Public Relations" name="Catherine Yang" photo="catherine.png" />
+                    <Member position="Public Relations" name="Keira Hsieh" photo="keira.png" />
+                    <Member position="Activities Director" name="Katie Wu" photo="katie.png" />
+                    <Member position="Activities Director" name="Jocelyn Wang" photo="jocelyn.png" />
+                    <Member position="Website Manager" name="Amy Jo" photo="amy.png" />
+                    <Member position="Website Manager" name="Revati Tambe" photo="revati.png" />
                 </div>
             </div>
         </div>
