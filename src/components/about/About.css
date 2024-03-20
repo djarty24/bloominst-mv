@@ -1,0 +1,75 @@
+.slider {
+	height: 300px;
+	margin: auto;
+	position: relative;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	overflow: hidden;
+    padding-top: var(--section-top-padding);
+	padding-bottom: var(--section-top-padding);
+}
+
+.slide-track {
+	display: flex;
+	width: calc(300px * 12);
+	animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+	animation-play-state: paused;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-300px * 4));
+	}
+}
+
+.slide {
+	width: auto;
+	display: flex;
+	padding: 10px;
+	perspective: 100px;
+}
+
+.slide img {
+	object-fit: cover;
+	width: 100%;
+	transition: transform 1s;
+}
+
+.slide img:hover {
+	transform: translateZ(20px);
+}
+
+.team-container {
+    width: 100%;
+    display: grid;
+    @media only screen and (max-width: 1080px) {
+        grid-template-areas: 
+            "member"
+        ;
+    }
+    @media only screen and (min-width: 1080px) {
+        grid-template-areas: 
+            "member member"
+        ;
+    }
+}
+
+.member {
+    padding: 10px;
+    grid-area: member;
+    line-height: 0.1rem;
+}
+
+.member img {
+    border: 2px solid var(--dark-gray); border-radius: 25px;
+    @media only screen and (max-width: 1080px) { width: 80%; }
+	@media only screen and (min-width: 1080px) { width: 275px; }
+	@media only screen and (min-width: 1500px) { width: 400px; }
+}
