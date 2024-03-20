@@ -8,6 +8,7 @@ export default {
     extend: {},
     colors: {
         'accent': '#EEF1FF',
+        'highlight': '#38ACEC',
       },  
   },
   plugins: [],

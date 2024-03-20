@@ -3,40 +3,37 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
 	return (
-		<footer>
-            <div>
+		<footer className='w-full px-6 md:px-24 lg:px-32'>
+            <div className='flex flex-col lg:flex-row lg:justify-between gap-5 py-5'>
                 <div>
-    				<ul>
-    					<li><img src="/favicon.png" alt="" />Bloom Institute Mountain View</li>
-    					<li><br /></li>
-    					<li>Bloom Institute is a 501&#40;c&#41;&#40;3&#41; non-profit organization</li>
-    					<li>EIN: 81-2908499</li>
-    				</ul>
+                    <div className='w-fit flex gap-5 items-center justify-center'>
+                        <img src="/favicon.png" alt="" className='w-[50px] h-[50px]'/>
+                        <h3 className='font-bold'>Bloom Institute <span className='highlight'>Mountain View</span></h3>
+                    </div>
+					<h4 className='py-5'>Bloom Institute is a 501&#40;c&#41;&#40;3&#41; non-profit organization<br />EIN: 81-2908499</h4>
     			</div>
-    			<div>
+    			<div className='lg:flex lg:gap-16'>
     				<div>
-    					<h3>Contact</h3>
-    					<ul>
-    						<li><i className='fa fa-envelope'></i><a href="mailto:mountainview@bloominst.org" target='_blank'>mountainview@bloominst.org</a></li>
-    						<li><i className='fa fa-instagram'></i><a href="https://www.instagram.com/mountainview.bloominst/" target='_blank'> @mountainview.bloominst</a></li>
-    						<li><i className='fa fa-linkedin'></i><a href="https://www.linkedin.com/company/bloom-instituteorg/?original_referer=https%3A%2F%2Fbloominst.org%2F" target='_blank'> Bloom Institute LinkedIn</a></li>
-    					</ul>
+    					<h3 className='text-left font-semibold'>Contact</h3>
+                        <div>
+                            <a href="mailto:mountainview@bloominst.org" target='_blank'><h5 className='m-0 leading-relaxed'><i className='fa fa-envelope pr-3 hover:text-highlight transition-colors duration-300'></i><span className='hover:text-highlight transition-colors duration-300'>mountainview@bloominst.org</span></h5></a>
+                            <a href="https://www.instagram.com/mountainview.bloominst/" target='_blank'><h5 className='m-0 leading-relaxed'><i className='fa fa-instagram pr-3 hover:text-highlight transition-colors duration-300'></i><span className='hover:text-highlight transition-colors duration-300'>@mountainview.bloominst</span></h5></a>
+                            <a href="https://www.linkedin.com/company/bloom-instituteorg/?original_referer=https%3A%2F%2Fbloominst.org%2F" target='_blank'><h5 className='m-0 leading-relaxed'><i className='fa fa-linkedin pr-3 hover:text-highlight transition-colors duration-300'></i><span className='hover:text-highlight transition-colors duration-300'>Bloom Institute LinkedIn</span></h5></a>
+                        </div>
     				</div>
     				<div>
-    					<h3>Quick Links</h3>
-    					<ul>
-    						<li><Link to={"/about"}>About</Link></li>
-    						<li><Link to={"/events"}>Events</Link></li>
-    						<li><a href="https://bloominst.org/" target='_blank'>HQ</a></li>
-    						<li><a href="https://hcb.hackclub.com/donations/start/bloom-institute" target='_blank'>Donate</a></li>
-    					</ul>
+    					<h3 className='text-left font-semibold'>Quick Links</h3>
+                        <div className='leading-relaxed'>
+                            <h5 className='m-0 leading-relaxed hover:text-highlight transition-colors duration-300'><Link to={"/about"}>About</Link></h5>
+    						<h5 className='m-0 leading-relaxed hover:text-highlight transition-colors duration-300'><Link to={"/events"}>Events</Link></h5>
+    						<h5 className='m-0 leading-relaxed hover:text-highlight transition-colors duration-300'><a href="https://bloominst.org/" target='_blank'>HQ</a></h5>
+    						<h5 className='m-0 leading-relaxed hover:text-highlight transition-colors duration-300'><a href="https://hcb.hackclub.com/donations/start/bloom-institute" target='_blank'>Donate</a></h5>
+                        </div>
     				</div>
     			</div>
             </div>
-            <div>
-                <hr />
-                <h4>© 2023 Bloom Institute. All Rights Reserved.</h4>
-            </div>
+            <hr className='pb-5' />
+            <p className='pb-5'>© 2023 Bloom Institute. All Rights Reserved.</p>
 		</footer>
 	)
 }
