@@ -5,6 +5,7 @@ nav {
     justify-content: space-between;
     border-bottom: 2px solid var(--light-gray);
     box-shadow: 0 1px 0px 0 rgba(0,0,0,.1);
+    background-color: white;
     position: sticky; /* Added */
 }
 
@@ -16,10 +17,6 @@ nav {
     height: 100%;
     z-index: 10; /* Ensure the overlay covers the whole screen */
     display: none; /* Hidden by default */
-}
-
-nav .white-background {
-    background-color: white;
 }
 
 nav ul {
@@ -46,7 +43,6 @@ nav ul {
     padding: 50px 0px 75px 0px;
     flex-direction: column;
     display: none;
-    background-color: white; /* Change background color here */
     position: absolute; /* Added */
     top: 100%; /* Position below the navbar */
     left: 0; /* Align to the left */
