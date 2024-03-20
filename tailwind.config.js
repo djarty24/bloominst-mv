@@ -9,6 +9,7 @@ export default {
     colors: {
         'accent': '#EEF1FF',
         'highlight': '#38ACEC',
+        'gray-600': '#475569'
       },  
   },
   plugins: [],
