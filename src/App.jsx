@@ -6,7 +6,7 @@ import Home from './components/home/Home'
 import About from './components/about/About'
 import Events from './components/events/Events'
 import Footer from './components/footer/Footer'
-  
+
 function App() {
   return (
 	<>

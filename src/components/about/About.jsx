@@ -7,6 +7,7 @@ const About = () => {
 	<div className='about'>
 		<div className='section'>
 			<h1>A Bit About <span className='highlight'>Us</span></h1>
+            <h3>👋 Hi there, we&#x27;re Bloom Institute&#x27;s Mountain View Chapter!</h3>
 			<p className='text-center text-gray-600'>In 2022, Bloom Institute expanded nationwide, introducing different regions to connect with students across the USA. In Mountain View, our first Regional Director, Suri, led the way and assembled our team: Dorie, Meredith, Katie, Catherine, and Jemma. Suri and Katie share a middle school background, while the rest of us attend Homestead High School in California. Once our team was formed, we eagerly began collaborating to plan exciting future events— and it's been a blast! We can't wait to meet everyone and hope you all enjoy our events!</p>
 		</div>
 		<div className="slider">
