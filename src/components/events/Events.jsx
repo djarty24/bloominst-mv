@@ -22,15 +22,25 @@ const Events = () => {
             <div className='past-section'>
                 <h2>Past Events</h2>
                 <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6 my-6'>
-                    <h3 className='font-semibold mb-2'>STEM NIGHT</h3>
+                    <h3 className='font-semibold mb-2'>STEM Night</h3>
                     <p className='italic text-center text-sm text-gray-600 m-0'>02/09/2024<br />Homestead High School</p>
                     <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-                    <a href="" className='text-center text-sm text-gray-600 m-0'>Read more coming soon</a>
+                    <a href="" className='text-center text-sm text-gray-600 m-0'>Read more</a>
                 </div>
-                <div className='flex'>
-                    <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6'>
-
+                <div className='flex flex-col lg:flex-row gap-5'>
+                    <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6 lg:w-1/2'>
+                        <h3 className='font-semibold mb-2'>Math & Puzzles Night</h3>
+                        <p className='italic text-center text-sm text-gray-600 m-0'>03/09/2023 and 03/16/2023<br />Elementary Schools</p>
+                        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+                        <a href="" className='text-center text-sm text-gray-600 m-0'>Read more</a>
                     </div>
+                    <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6 lg:w-1/2'>
+                        <h3 className='font-semibold mb-2'>Community Tie-Dye Booth</h3>
+                        <p className='italic text-center text-sm text-gray-600 m-0'>09/09/2023<br />Silicon Valley Day 'n Night Fun Fest</p>
+                        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+                        <a href="" className='text-center text-sm text-gray-600 m-0'>Read more</a>
+                    </div>
+
                 </div>
             </div>
         </div>

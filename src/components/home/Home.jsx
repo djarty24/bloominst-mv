@@ -4,7 +4,8 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-        <h1>
+        <h1>This website is currently undergoing development! Please check back later.</h1>
+        {/* <h1>
             Purpose
         </h1>
             <p1>
@@ -34,7 +35,7 @@ const Home = () => {
             <br />
             <button>
                 Learn More
-            </button>
+            </button> */}
     </div>
   )
 }

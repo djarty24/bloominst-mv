@@ -1,5 +1,5 @@
 import React from 'react'
-import './Embla.css'
+import './EmblaCarousel.css'
 import {
     PrevButton,
     NextButton,
@@ -19,11 +19,11 @@ const EmblaCarousel = (props) => {
     } = usePrevNextButtons(emblaApi)
 
     return (
-        <section className="embla w-fit h-fit m-5 bg-accent">
+        <section className="embla w-fit h-fit m-5">
             <div className='flex items-center justify-center'>
                 <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
 
-                <div className="embla__viewport" ref={emblaRef}>
+                <div className="embla__viewport bg-accent rounded-md" ref={emblaRef}>
                     <div className="embla__container">
                         {slides.map((index) => (
                         <div className="embla__slide" key={index}>
