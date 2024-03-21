@@ -12,18 +12,18 @@ const About = () => {
 		</div>
 		<div className="slider">
 			<div className="slide-track">
-				<div className="slide"><img src="/scroll1.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll2.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll3.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll4.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll1.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll2.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll3.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll4.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll1.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll2.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll3.jpeg" alt="" /></div>
-				<div className="slide"><img src="/scroll4.jpeg" alt="" /></div>
+				<div className="slide"><img src="/tie-dye-booth/a.jpeg" alt="" /></div>
+                <div className="slide"><img src="/stem-night/a.png" alt="" /></div>
+				<div className="slide"><img src="/tie-dye-booth/b.jpeg" alt="" /></div>
+                <div className="slide"><img src="/stem-night/b.png" alt="" /></div>
+				<div className="slide"><img src="/tie-dye-booth/c.jpeg" alt="" /></div>
+                <div className="slide"><img src="/stem-night/c.png" alt="" /></div>
+				<div className="slide"><img src="/tie-dye-booth/d.jpeg" alt="" /></div>
+                <div className="slide"><img src="/stem-night/d.png" alt="" /></div>
+				<div className="slide"><img src="/tie-dye-booth/e.jpeg" alt="" /></div>
+                <div className="slide"><img src="/stem-night/e.png" alt="" /></div>
+				<div className="slide"><img src="/tie-dye-booth/f.jpeg" alt="" /></div>
+				<div className="slide"><img src="/stem-night/f.png" alt="" /></div>
 			</div>
 		</div>
 		<div className='section bg-accent'>
