@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-        <div className='home-intro'>
+        <div className='home-intro wide-section'>
             <div className='home-intro-text'>
                 <h4 className='font-semibold text-gray-600'>BLOOM INSTITUTE MOUNTAIN VIEW</h4>
                 <h1>Learning <span className='highlight'>beyond</span> the classroom.</h1>
