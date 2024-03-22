@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <div className='w-fit flex gap-5 items-center justify-center'>
                         <img src="/favicon.png" alt="" className='w-[50px] h-[50px]'/>
-                        <h3 className='font-semibold'>Bloom Institute <span className='highlight'>Mountain View</span></h3>
+                        <h3 className='font-semibold text-left'>Bloom Institute <span className='highlight'>Mountain View</span></h3>
                     </div>
 					<h4 className='py-5'>Bloom Institute is a 501&#40;c&#41;&#40;3&#41; non-profit organization<br />EIN: 81-2908499</h4>
     			</div>

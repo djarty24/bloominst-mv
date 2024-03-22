@@ -129,3 +129,17 @@ p {
         padding: 3rem 25%;
     }
 }
+
+.wide-section {
+    margin: 3rem auto;
+    padding: 3rem 20px;
+    width: 100%;
+
+    @media (min-width: 800px) {
+        padding: 3rem 10%;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 3rem 18%;
+    }
+}

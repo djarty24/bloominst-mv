@@ -6,6 +6,7 @@ import {
     usePrevNextButtons
 } from './EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
+import Autoplay from 'embla-carousel-autoplay'
 
 const EmblaCarousel = (props) => {
     const { slides, options } = props

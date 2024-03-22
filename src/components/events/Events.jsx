@@ -15,11 +15,10 @@ const Events = () => {
             </div>
             <div className='section bg-accent'>
                 <h2>Calendar</h2>
-                {/* <iframe className='calendar w-full' src="https://calendar.google.com/calendar/embed?src=mountainview%40bloominst.org&ctz=America%2FLos_Angeles"></iframe> */}
                 <iframe style={{aspectRatio: "5 / 4", width: "100%"}} src="https://embed.styledcalendar.com/#xPzT5eiLzun3xEJn3CPr" title="Styled Calendar" class="styled-calendar-container" data-cy="calendar-embed-iframe"></iframe>
                 <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
             </div>
-            <div className='past-section'>
+            <div className='wide-section'>
                 <h2>Past Events</h2>
                 <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6 my-6'>
                     <h3 className='font-semibold mb-2'>STEM Night</h3>

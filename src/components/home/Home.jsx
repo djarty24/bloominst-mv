@@ -1,41 +1,54 @@
+
 import React from 'react'
 import './Home.css'
 
 const Home = () => {
   return (
     <div className='home'>
-        <h1>This website is currently undergoing development! Please check back later.</h1>
-        {/* <h1>
-            Purpose
-        </h1>
-            <p1>
-                Bloom Institute is a student-run non-profit organization aimed to promote non-traditional subjects to middle school students. In our region, we look forward to inspire and motivate students to learn about a variety of subjects. We want to provide students in the Mountain View area with fun and educational events that will help grow their interests for a successful future. We hope these events will help inspire many students to further pursue their passions beyond what is taught in a traditional classroom.
-            </p1>
-        <h2>
-            Goals
-        </h2>
-            <p2>
-                Within our events, we hope to touch on many unique topics by hosting workshops and seminars. We chose these non-traditional topics in hopes that students can find new passions, interests, and be able develop new hobbies. We believe that these subjects are important in a student's creative development, which is why our team is working diligently to make sure this knowledge can reach as many students as possible.
-            </p2>
-        <h3>
-            What We've Done
-        </h3>
-            <p3>
-                Our first event was hosted on March 9, 2023 and March 16, 2023. We hosted a fun math night for all elementary school students at our local elementary schools.
-                Bloom Institute hosted a fun tie-dye booth at the annual Silicon Valley Fun Fest at Memorial Park on September 9, 2023.
-            </p3>
-            <br />
-            <br />
-            <p4>
-                Looking for an opportunity to gain valuable leadership exeprience? Need volunteer hours? Come volunteer at or join Bloom Institute's Mountain View Region! 
-            </p4>
+        <div className='home-intro'>
+            <div className='home-intro-text'>
+                <h4 className='caption'>BLOOM INSTITUTE MOUNTAIN VIEW</h4>
+                <h1>Learning <span className='highlight'>beyond</span> the classroom.</h1>
+                <p>We are a student-led non-profit that encourages middle schoolers in Mountain View to explore exciting subjects. We organize fun events to spark their interests and inspire a love for learning beyond the classroom, aiming for a successful future. Join us in cultivating passions!</p>
+            </div>
+            <img src="/mountain-view.png" alt="" />
+        </div>
 
+        <div className="section bg-accent">
+            <h2>Our Goals</h2>
+            <p>At our events, we aim to cover unique topics through workshops and seminars. By focusing on non-traditional subjects, we want students to discover new passions and interests. Our dedicated team is working hard to share this knowledge with as many students as we can!</p>
+        </div>
 
-            <br />
-            <br />
-            <button>
-                Learn More
-            </button> */}
+        <div className="wide-section">
+            <h2 className='text-center'>Events We've Hosted</h2>
+            <div className='events'>
+                <div className="home-event">
+                    <h4 className='caption'>MARCH 9 AND MARCH 16</h4>
+                    <h3>Math Night</h3>
+                    <p>Our first events were hosted on March 9, and March 16, 2023. We hosted a fun math night for all local elementary school students to enjoy!</p>
+                </div>
+                <div className="home-event">
+                    <h4 className='caption'>SEPTEMBER 16</h4>
+                    <h3>Tie-Dye Booth</h3>
+                    <p>We hosted a fun tie-dye booth at the annual Silicon Valley Fun Fest at Memorial Park.</p>
+                </div>
+                <div className="home-event">
+                    <h4 className='caption'>TO BE ANNOUNCED!</h4>
+                    <h3>Stay tuned!</h3>
+                    <p>We plan to host many more events in the future!</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="wide-section bg-accent">
+                <div className="home-map">
+                <img className='border bg-gray-600' src="/map.png" alt="Map of Mountain View" />
+                <div>
+                    <h2>Welcome to the Mountain View Chapter!</h2>
+                    <p>Located in the heart of Silicon Valley, our region is known for its diverse community and rich history. Mountain View houses the headquarters of many of the world's largest companies, including Google and Alphabet Inc., LinkedIn, and Microsoft.</p>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
