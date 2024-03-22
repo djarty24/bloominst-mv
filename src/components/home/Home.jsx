@@ -7,7 +7,7 @@ const Home = () => {
     <div className='home'>
         <div className='home-intro'>
             <div className='home-intro-text'>
-                <h4 className='caption'>BLOOM INSTITUTE MOUNTAIN VIEW</h4>
+                <h4 className='font-semibold text-gray-600'>BLOOM INSTITUTE MOUNTAIN VIEW</h4>
                 <h1>Learning <span className='highlight'>beyond</span> the classroom.</h1>
                 <p>We are a student-led non-profit that encourages middle schoolers in Mountain View to explore exciting subjects. We organize fun events to spark their interests and inspire a love for learning beyond the classroom, aiming for a successful future. Join us in cultivating passions!</p>
             </div>
