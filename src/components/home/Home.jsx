@@ -8,7 +8,7 @@ const Home = () => {
         <div className='home-intro wide-section'>
             <div className='home-intro-text'>
                 <h4 className='font-semibold text-gray-600'>BLOOM INSTITUTE MOUNTAIN VIEW</h4>
-                <h1>Learning <span className='highlight'>beyond</span> the classroom.</h1>
+                <h1 className="text-left">Learning <span className='highlight'>beyond</span> the classroom.</h1>
                 <p>We are a student-led non-profit that encourages middle schoolers in Mountain View to explore exciting subjects. We organize fun events to spark their interests and inspire a love for learning beyond the classroom, aiming for a successful future. Join us in cultivating passions!</p>
             </div>
             <img src="/mountain-view.png" alt="" />
@@ -40,9 +40,9 @@ const Home = () => {
             </div>
         </div>
 
-        <div className="wide-section bg-accent">
+        <div className="p-14 bg-accent">
                 <div className="home-map">
-                <img className='border bg-gray-600' src="/map.png" alt="Map of Mountain View" />
+                <img className='border m-8 bg-gray-600' src="/map.png" alt="Map of Mountain View" />
                 <div>
                     <h2>Welcome to the Mountain View Chapter!</h2>
                     <p>Located in the heart of Silicon Valley, our region is known for its diverse community and rich history. Mountain View houses the headquarters of many of the world's largest companies, including Google and Alphabet Inc., LinkedIn, and Microsoft.</p>

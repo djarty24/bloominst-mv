@@ -43,11 +43,17 @@
 }
 
 .home-map {
-	margin-left: 10vw;
-	margin-right: 10vw;
-	@media only screen and (max-width: 1080px) { display: block;}
+	margin-left: 10%;
+	margin-right: 10%;
+	@media only screen and (max-width: 1080px) { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
 	@media only screen and (min-width: 1080px) {
 		display: flex;
+        justify-content: center;
 		align-items: center;
 		gap: 50px;
 	}
