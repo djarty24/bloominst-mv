@@ -28,6 +28,7 @@ const Footer = () => {
     						<h5 className='m-0 leading-relaxed text-gray-600 hover:text-highlight transition-colors duration-300'><Link to={"/events"}>Events</Link></h5>
     						<h5 className='m-0 leading-relaxed text-gray-600 hover:text-highlight transition-colors duration-300'><a href="https://bloominst.org/" target='_blank'>HQ</a></h5>
     						<h5 className='m-0 leading-relaxed text-gray-600 hover:text-highlight transition-colors duration-300'><a href="https://hcb.hackclub.com/donations/start/bloom-institute" target='_blank'>Donate</a></h5>
+                            <h5 className='m-0 leading-relaxed text-gray-600 hover:text-highlight transition-colors duration-300'><a href="https://docs.google.com/forms/d/e/1FAIpQLSdwrf9KzKC9Na0cRpPDE1a6d1GaydH4dHMvQE6tztDXJaculQ/viewform" target='_blank'>Volunteer</a></h5>
                         </div>
     				</div>
     			</div>

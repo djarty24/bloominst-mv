@@ -19,6 +19,7 @@ const Navbar = () => {
                 <li><Link to={"/events"}>Events</Link></li>
                 <li><a href="https://bloominst.org/" target='_blank'>HQ</a></li>
                 <li><a href="https://hcb.hackclub.com/donations/start/bloom-institute" target='_blank'>Donate</a></li>
+                <li><a href ="https://docs.google.com/forms/d/e/1FAIpQLSdwrf9KzKC9Na0cRpPDE1a6d1GaydH4dHMvQE6tztDXJaculQ/viewform" target = '_blank'>Volunteer</a></li>
             </ul>
             <a href="javascript:void(0);" className="icon" onClick={toggleMenu}><i className="fa fa-bars"></i></a>
             {menuOpen && <div className="overlay" onClick={toggleMenu}></div>}
