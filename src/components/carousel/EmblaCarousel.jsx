@@ -26,11 +26,11 @@ const EmblaCarousel = (props) => {
 
                 <div className="embla__viewport bg-accent rounded-md" ref={emblaRef}>
                     <div className="embla__container">
-                        {slides.map((index) => (
-                        <div className="embla__slide" key={index}>
-                            <div className="embla__slide__number">{index + 1}</div>
-                        </div>
-                    ))}
+                        {slides.map((imageUrl, index) => (
+                            <div className="embla__slide" key={index}>
+                                <img src={imageUrl} alt={`Slide ${index + 1}`} />
+                            </div>
+                        ))}
                     </div>
                 </div>
 

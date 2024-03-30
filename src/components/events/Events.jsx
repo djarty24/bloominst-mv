@@ -5,7 +5,12 @@ import './Events.css'
 
 const OPTIONS = { loop: true }
 const SLIDE_COUNT = 6
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+// const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+const SLIDES = [
+    ['/stem-night/a.png', '/stem-night/b.png', '/stem-night/c.png', '/stem-night/d.png', '/stem-night/e.png', '/stem-night/f.png'],
+    ['/math-puzzles-night/a1.png', '/math-puzzles-night/a2.png', '/math-puzzles-night/a3.png', '/math-puzzles-night/a4.png'],
+    ['/tie-dye-booth/a.jpeg', '/tie-dye-booth/b.jpeg', '/tie-dye-booth/c.jpeg', '/tie-dye-booth/d.jpeg', '/tie-dye-booth/e.jpeg', '/tie-dye-booth/f.jpeg']
+];
 
 const Events = () => {
     return (
@@ -24,20 +29,20 @@ const Events = () => {
                 <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6 my-6'>
                     <h3 className='font-semibold mb-2'>STEM Night</h3>
                     <p className='italic text-center text-sm text-gray-600 m-0'>02/09/2024<br />Homestead High School</p>
-                    <EmblaCarousel slides={SLIDES} options={OPTIONS}/>
+                    <EmblaCarousel slides={SLIDES[0]} options={OPTIONS} />
                     <a href="" className='text-center text-sm text-gray-600 m-0'>Read more</a>
                 </div>
                 <div className='flex flex-col lg:flex-row gap-5'>
                     <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6 lg:w-1/2'>
                         <h3 className='font-semibold mb-2'>Math & Puzzles Night</h3>
                         <p className='italic text-center text-sm text-gray-600 m-0'>03/09/2023 and 03/16/2023<br />Elementary Schools</p>
-                        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+                        <EmblaCarousel slides={SLIDES[1]} options={OPTIONS} />
                         <a href="" className='text-center text-sm text-gray-600 m-0'>Read more</a>
                     </div>
                     <div className='flex flex-col items-center justify-center border border-[#d1d5db] rounded-2xl p-6 lg:w-1/2'>
                         <h3 className='font-semibold mb-2'>Community Tie-Dye Booth</h3>
                         <p className='italic text-center text-sm text-gray-600 m-0'>09/09/2023<br />Silicon Valley Day 'n Night Fun Fest</p>
-                        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+                        <EmblaCarousel slides={SLIDES[2]} options={OPTIONS} />
                         <a href="" className='text-center text-sm text-gray-600 m-0'>Read more</a>
                     </div>
 
