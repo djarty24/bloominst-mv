@@ -33,6 +33,11 @@ const Home = () => {
                     <p>We hosted a fun tie-dye booth at the annual Silicon Valley Fun Fest at Memorial Park.</p>
                 </div>
                 <div className="home-event">
+                    <h4 className='caption'>FEBRUARY 9</h4>
+                    <h3>STEM Night</h3>
+                    <p>We hosted a DNA animal cell slime modeling event for STEM Night at Homestead High.</p>
+                </div>
+                <div className="home-event">
                     <h4 className='caption'>TO BE ANNOUNCED!</h4>
                     <h3>Stay tuned!</h3>
                     <p>We plan to host many more events in the future!</p>
